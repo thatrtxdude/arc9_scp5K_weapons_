@@ -10,4 +10,9 @@
 	"$phongboost"				"1"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint"			"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"80"
+	"$rimlightboost"			"1"
+	"$rimmask"					"1"
 }

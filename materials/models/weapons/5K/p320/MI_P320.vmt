@@ -1,13 +1,26 @@
 "VertexlitGeneric"
 {
-    "$basetexture"              "models/weapons/5K/p320/P320_BaseColor"
-    "$bumpmap"                  "models/weapons/5K/p320/P320_Normal"
-	"$phongexponenttexture"		"models/weapons/5K/p320/P320_Emissive"
-	"$color2"					"[0.7 0.7 0.7]"
+    "$basetexture"              "models/weapons/5K/p320/mi_p320_rgb"
+    "$bumpmap"                  "models/weapons/5K/p320/mi_p320_n"
+	"$phongexponenttexture"		"models/weapons/5K/p320/mi_p320_e"
+	"$phongwarptexture"			"models/weapons/5K/phongwarp_metal"
+	
+    "$color2" "[0 0 0]"
+    "$blendtintbybasealpha" "1"
 
-	"$phong"					"1"
-	"$phongexponent"			"10"
-	"$phongboost"				"1"
-	"$phongfresnelranges"		"[0.32 0.72 0.99]"
-	"$phongalbedotint"			"1"
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges" "[1 0.5 0]"
+    "$phongalbedotint" "0"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+    "$normalmapalphaenvmapmask" "1"
+    "$envmapfresnel" "1"
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[0 0 0]"
 }

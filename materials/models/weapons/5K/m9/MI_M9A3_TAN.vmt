@@ -3,6 +3,7 @@
     "$basetexture"              "models/weapons/5K/m9/M9A3_Tan_BaseColor"
     "$bumpmap"                  "models/weapons/5K/m9/M9A3_Normal"
 	"$phongexponenttexture"		"models/weapons/5K/m9/M9A3_Tan_OcclusionRoughnessMetallic"
+	"$phongwarptexture"			"models/weapons/5K/phongwarp_metal"
 	"$color2"					"[0.7 0.7 0.7]"
 
 	"$phong"					"1"
