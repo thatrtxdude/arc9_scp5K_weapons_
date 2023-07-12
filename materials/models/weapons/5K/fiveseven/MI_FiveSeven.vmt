@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+    "$basetexture"              "models/weapons/5K/fiveseven/fiveseven_BaseColor"
+    "$bumpmap"                  "models/weapons/5K/fiveseven/fiveseven_Normal"
+	"$phongexponenttexture"		"models/weapons/5K/fiveseven/fiveseven_Emissive"
+	"$color2"					"[0.5 0.5 0.5]"
+
+
+	"$phong"					"1"
+	"$phongexponent"			"10"
+	"$phongboost"				"1"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
+}

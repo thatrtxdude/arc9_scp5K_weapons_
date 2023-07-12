@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+    "$basetexture"              "models/weapons/5K/m9/M9A3_Tan_BaseColor"
+    "$bumpmap"                  "models/weapons/5K/m9/M9A3_Normal"
+	"$phongexponenttexture"		"models/weapons/5K/m9/M9A3_Tan_OcclusionRoughnessMetallic"
+	"$color2"					"[0.7 0.7 0.7]"
+
+	"$phong"					"1"
+	"$phongexponent"			"10"
+	"$phongboost"				"1"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"80"
+	"$rimlightboost"			"1"
+	"$rimmask"					"1"
+
+    "$emissiveBlendEnabled" "1"
+	"$emissiveBlendTexture" "dev/null" 
+	"$emissiveBlendBaseTexture" "models/weapons/5K/m9/M9A3_Emissive"
+	"$emissiveBlendFlowTexture" "dev/null"
+	"$emissiveBlendTint" "[1 1 1]"
+	"$emissiveBlendStrength" "1"
+	"$emissiveBlendScrollVector" "[0.0]"
+}
